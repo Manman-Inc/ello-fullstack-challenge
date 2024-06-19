@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    /* Mulish font face for italic styles */
+
+    /* Regular */
+    @font-face {
+        font-family: 'Mulish';
+        src: url('../fonts/Mulish-Regular.ttf') format('truetype');
+        font-weight: 400;
+        font-style: normal; /* Normal style */
+    }
+
+    /* Italic */
+    @font-face {
+        font-family: 'Mulish';
+        src: url('../fonts/Mulish-Italic.ttf') format('truetype'); /* Replace with actual italic font file */
+        font-weight: 400;
+        font-style: italic; /* Italic style */
+    }
+
+    /* Bold */
+    @font-face {
+        font-family: 'Mulish';
+        src: url('../fonts/Mulish-Bold.ttf') format('truetype');
+        font-weight: 700;
+        font-style: normal; /* Normal style */
+    }
+
+    /* Medium */
+    @font-face {
+        font-family: 'Mulish';
+        src: url('../fonts/Mulish-Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal; /* Normal style */
+    }
+
+    /* Semibold */
+    @font-face {
+        font-family: 'Mulish';
+        src: url('../fonts/Mulish-SemiBold.ttf') format('truetype');
+        font-weight: 600;
+        font-style: normal; /* Normal style */
+    }
+
+    /* Light */
+    @font-face {
+        font-family: 'Mulish';
+        src: url('../fonts/Mulish-Light.ttf') format('truetype');
+        font-weight: 300;
+        font-style: normal; /* Normal style */
+    }
+}
+
+html {
+    font-family: 'Mulish', sans-serif; /* Mulish font with sans-serif fallback */
+}
+
+@layer components {
+    @keyframes fade-in {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    .fade-in {
+        animation: fade-in 0.5s ease-out forwards;
+    }
+
+    @keyframes fade-out {
+        from {
+            opacity: 1;
+        }
+        to {
+            opacity: 0;
+        }
+    }
+
+    .fade-out {
+        animation: fade-out 0.5s ease-out forwards;
+    }
+}

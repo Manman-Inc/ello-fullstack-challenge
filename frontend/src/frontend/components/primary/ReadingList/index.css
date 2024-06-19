@@ -1,0 +1,35 @@
+.premium-button {
+    background: linear-gradient(135deg, #28b8b8, #4aa088);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.premium-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    transition: all 0.5s ease;
+}
+
+.premium-button:hover::before {
+    width: 100%;
+    height: 100%;
+    transform: translateX(0) translateY(0) rotate(0deg);
+}
+
+.premium-button:hover {
+    background: linear-gradient(135deg, #4aa088, #28b8b8);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
