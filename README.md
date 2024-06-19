@@ -30,11 +30,11 @@ My solution employs React hooks for efficient state management and custom-design
 
 The cherry on top, My solution leverages advanced frontend techniques to optimize performance and user experience:
 
--   Virtual Scrolling: Implemented to efficiently render large lists of books without performance degradation. This technique dynamically loads only the visible items in the viewport, enhancing responsiveness and reducing memory consumption.
+-   **Virtual Scrolling:** Implemented to efficiently render large lists of books without performance degradation. This technique dynamically loads only the visible items in the viewport, enhancing responsiveness and reducing memory consumption.
 
--   Infinite Scrolling: Utilized to seamlessly fetch additional book data as the user scrolls, providing a continuous browsing experience without the need for manual pagination. This approach enhances usability by loading content progressively and improving load times.
+-   **Infinite Scrolling:** Utilized to seamlessly fetch additional book data as the user scrolls, providing a continuous browsing experience without the need for manual pagination. This approach enhances usability by loading content progressively and improving load times.
 
--   Lazy-Loaded Images: Implemented lazy loading for book cover images. Images are loaded asynchronously as they enter the viewport, reducing initial page load time and improving overall page performance. This technique ensures a faster initial render and smoother user interactions.
+-   **Lazy-Loaded Images:** Implemented lazy loading for book cover images. Images are loaded asynchronously as they enter the viewport, reducing initial page load time and improving overall page performance. This technique ensures a faster initial render and smoother user interactions.
 
 ### How to Run
 
