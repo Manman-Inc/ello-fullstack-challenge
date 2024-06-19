@@ -4,6 +4,8 @@
 
 👋 Hello! Welcome to my submission for the Ello Engineering Challenge. This repository showcases my solution to the task of developing a teacher-facing user interface for the Ello web viewer product. Designed to empower educators in facilitating children's reading experiences, this project focuses on implementing a robust and intuitive book assignment feature. You can explore the live demo of my solution here https://ello-fullstack-challenge.web.app/.
 
+**Technical** Note: Please note that I utilized vanilla JavaScript for rapid prototyping while adhering to best practices and maintaining code quality and maintainability. In a production environment, In a production environment, the code could be refactored to TypeScript to enforce type safety across the code base.
+
 ## Challenge Context
 
 Ello stands at the forefront of educational technology, dedicated to empowering young readers by redefining how children learn to read. This challenge provided an opportunity to showcase proficiency in developing a pivotal component of the Ello ecosystem—specifically, the book assignment view for educators.
